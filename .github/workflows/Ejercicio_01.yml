@@ -1,0 +1,14 @@
+
+name: Mi primera automatizacion
+
+on:
+  workflow_dispatch:
+
+jobs:
+  primera-automatizacion:
+    name: Ejecutar mi primera automatizacion
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar mensaje personalizado
+        run: 'echo "Anais Chiquito: mi primera automatizacion se ha ejecutado correctamente."'
